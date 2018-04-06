@@ -1,0 +1,65 @@
+.car{
+	width: 1067px;
+	height: 460px;
+	background: #fff url(../img/Без-имени-4.png) center top 90px no-repeat;
+		animation-name: drive;
+	animation-duration: 10s;
+	animation-timing-function:cubic-bezier(0.49,-0.08, 1,-0.02);
+	
+	animation-direction: normal;
+	-webkit-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+ 
+   }
+.round{
+	position: relative;
+	width: 100%;
+	height: 180px;
+	background: #fff url(../img/ound.jpg) repeat-x;
+	
+}
+.col{
+	animation-name: drive;
+	animation-duration: 10s;
+	animation-timing-function:cubic-bezier(0.49,-0.08, 1,-0.02);
+	
+	animation-direction: normal;
+	-webkit-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	position: absolute;
+	bottom: 100px;
+	left: 80px;
+	width: 200px;
+	height: 190px;
+		background-image: url(../img/col.png);
+		
+}
+@keyframes drive{
+	from {
+		margin-left: 0px;
+	}
+to { margin-left: 200px;
+
+}
+}
+
+		
+	.col1	{
+		animation-name: drive;
+	
+	animation-duration: 10s;
+	animation-timing-function:cubic-bezier(0.49,-0.08, 1,-0.02);
+	
+	animation-direction: normal;
+	-webkit-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	position: absolute;
+	bottom: 100px;
+	left: 760px;
+	width: 200px;
+	height: 190px;
+		background-image: url(../img/col.png);
+		}
